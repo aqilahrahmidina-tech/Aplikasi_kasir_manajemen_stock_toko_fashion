@@ -18,9 +18,9 @@ def generate_pdf(parent):
         c.drawImage(logo_path, 40, logo_y, width=120, height=60, preserveAspectRatio=True, mask="auto")
 
     c.setFont("Helvetica-Bold", 16)
-    c.drawString(180, header_top, "TOKO FASHION APIM")
+    c.drawString(180, header_top, "TOKO FASHION JAYA")
     c.setFont("Helvetica", 11)
-    c.drawString(180, header_top - 18, "Jl. DR WAHIDIN KOMPLEK GRIYA GIESHA ASRI AA.30, PONTIANAK")
+    c.drawString(180, header_top - 18, "Jl. Contoh Alamat No.12, Jakarta")
     c.drawString(180, header_top - 34, "Telp: 0812-3456-7890")
     c.line(40, header_top - 50, 570, header_top - 50)
     
